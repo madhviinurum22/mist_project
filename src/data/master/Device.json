@@ -1,0 +1,111 @@
+{
+    "pageTitle": "user list",
+    "breadcrumb": [
+        {
+            "path": "/",
+            "text": "home"
+        },
+        {
+            "text": "users"
+        },
+        {
+            "text": "all-user"
+        }
+    ],
+    "cardTitle": "registered users",
+    "dotsMenu": {
+        "dots": "more_horiz",
+        "dropdown": [
+            {
+                "icon": "edit",
+                "text": "edit"
+            },
+            {
+                "icon": "delete",
+                "text": "delete"
+            },
+            {
+                "icon": "download",
+                "text": "download"
+            }
+        ]
+    },
+    "float": [
+        {
+            "title": "Device Name",
+            "digit": "547",
+            "icon": "pending",
+            "variant": "lg purple"
+        },
+        {
+            "title": "approved users",
+            "digit": "605",
+            "icon": "check_circle",
+            "variant": "lg green"
+        },
+        {
+            "title": "blocked users",
+            "digit": "249",
+            "icon": "remove_circle",
+            "variant": "lg red"
+        }
+    ],
+    "filter": [
+        {
+            "label": "show by",
+            "option": [
+                "12 row",
+                "24 row",
+                "36 row"
+            ]
+        },
+        {
+            "label": "role by",
+            "option": [
+                "admin",
+                "member",
+                "client",
+                "manager",
+                "vendor"
+            ]
+        },
+        {
+            "label": "status by",
+            "option": [
+                "approved",
+                "pending",
+                "blocked"
+            ]
+        },
+        {
+            "label": "search by",
+            "type": "search",
+            "placeholder": "id / name / email / number"
+        }
+    ],
+    "table": {
+        "thead": [
+        
+           "Device Name",
+           "Mac address",
+           "Latitude ",
+           "Longitude",
+           "Temperature",
+           "Status",
+           "Moisture",
+           "action"
+        ]
+    },
+    "role": [
+        "founder",
+        "admin",
+        "member",
+        "client",
+        "vendor"
+    ],
+    "status": [
+        "approved",
+        "pending",
+        "blocked"
+    ]
+}

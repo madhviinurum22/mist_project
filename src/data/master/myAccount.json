@@ -1,0 +1,117 @@
+{
+    "pageTitle": "Add User",
+    "breadcrumb": [
+        { "path": "/", "text": "home" },
+        { "path": "/user-list", "text": "user-list" },
+        { "text": "add-user" }
+    ],
+    "id": { "title": "Lock id", "value": "#783404edft97e3445" },
+    "name": { "title": "name", "value": "Miron Mahmud" },
+    "propertyid": { "title": "Property Id", "value": "1234434343344" },
+    "role": { "title": "Lock Plan List", "activeOption": "member", "option": ["$5, Hourly "] },
+    "status": { "title": "status", "activeOption": "approved", "option": ["approved", "pending", "blocked"] },
+    "bio": { "title": "Description", "longText": "I consider myself as a creative, professional and a flexible person. I can adapt with any kind of brief and design style" },
+    "email": { "title": "email", "value": "demo@example.com" },
+    "phone": { "title": "phone", "value": "+8801838288389" },
+    "website": { "title": "website", "value": "https://mironmahmud.com/" },
+    "create": { "title": "create", "value": "15/06/2022 14:02" },
+    "address": { "title": "address", "longText": "3379  Monroe Avenue, Fort Myers, Florida(33912)" },
+    "social": [
+        { "type": "url", "title": "facebook", "value": "https://example.com/" },
+        { "type": "url", "title": "twitter", "value": "https://example.com/" },
+        { "type": "url", "title": "linkedin", "value": "https://example.com/" },
+        { "type": "url", "title": "instagram", "value": "https://example.com/" },
+        { "type": "url", "title": "youtube", "value": "https://example.com/" },
+        { "type": "url", "title": "pinterest", "value": "https://example.com/" }
+    ],
+    "avatar": {
+        "src": "images/avatar/01.webp",
+        "alt": "avatar"
+    },
+    "product": {
+        "filter":[
+            { "label": "", "option": ["","Hourly", "One-Day", "Multi-Day"] }
+          
+        ],
+        "thead": ["product", "category", "brand", "price", "stock", "rating", "order", "sales", "action"],
+        "tbody": [
+            {
+                "src": "images/product/01.webp",
+                "alt": "scart",
+                "heading": "Tops and skirt set for Female", 
+                "descrip": "Women's exclusive summer Tops and skirt set for Female Tops and skirt set", 
+                "category": "womans",
+                "brand": "richman",
+                "price": { "present": "$19.00", "previous": "$21.00" },
+                "stock": "30",
+                "order": "380",
+                "sales": "$38k", 
+                "rating": { "icon": "star", "percent": "4.9", "number": "16" },
+                "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+            },
+            {
+                "src": "images/product/02.webp",
+                "alt": "scart",
+                "heading": "Leather belt steve madden men's", 
+                "descrip": "Steve madden men's dress casual cvery cay ceather belt", 
+                "category": "mans",
+                "brand": "lubana",
+                "price": { "present": "$14.00" },
+                "stock": "23",
+                "order": "189",
+                "sales": "$9k", 
+                "rating": { "icon": "star", "percent": "4.5", "number": "38" },
+                "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+            },
+            {
+                "src": "images/product/03.webp",
+                "alt": "scart",
+                "heading": "Existing product name", 
+                "descrip": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur", 
+                "category": "womans",
+                "brand": "ecstasy",
+                "price": { "present": "33.00", "previous": "44.00" },
+                "stock": "30",
+                "order": "380",
+                "sales": "$38k", 
+                "rating": { "icon": "star", "percent": "4.1", "number": "69" },
+                "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+            },
+            {
+                "src": "images/product/04.webp",
+                "alt": "scart",
+                "heading": "Existing product name", 
+                "descrip": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur", 
+                "category": "kidz",
+                "brand": "ecstasy",
+                "price": { "present": "33.00" },
+                "stock": "30",
+                "order": "380",
+                "sales": "$38k", 
+                "rating": { "icon": "star", "percent": "4.4", "number": "47" },
+                "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+            },
+            {
+                "src": "images/product/05.webp",
+                "alt": "scart",
+                "heading": "Existing product name", 
+                "descrip": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur", 
+                "category": "accessory",
+                "brand": "ecstasy",
+                "price": { "present": "33.00" },
+                "stock": "30",
+                "order": "380",
+                "sales": "$38k", 
+                "rating": { "icon": "star", "percent": "5", "number": "47" },
+                "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+            }
+           
+            
+            
+          
+          
+         
+         
+        ]
+    }
+}

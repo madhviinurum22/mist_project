@@ -1,0 +1,39 @@
+{
+    "navs": [
+        {
+            "title": "master",
+            "menu": [
+                {
+                    "icon": "dashboard",
+                    "text": "dashboard",
+                    "href": "/analytics"
+                },
+                {
+                    "icon": "account_circle",
+                    "text": "users",
+                    "href": "/user-list"
+                },
+                {
+                    "icon": "account_circle",
+                    "text": "Devices",
+                    "href": "/Devices"
+                   
+                },
+                {
+                    "icon": "account_circle",
+                    "text": "Map",
+                    "href": "/MapPage"
+                   
+                }
+
+              
+            ]
+        }
+    ],
+    "button": {
+        "icon": "lock",
+        "path": "/",
+        "text": "logout"
+    }
+}
+

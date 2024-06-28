@@ -1,0 +1,75 @@
+{
+    "pageTitle": "users",
+    "breadcrumb": [
+    
+    ],
+    "cardTitle": " users List",
+    "dotsMenu": {
+        "dots": "more_horiz",
+        "dropdown": [
+            {
+                "icon": "edit",
+                "text": "edit"
+            },
+            {
+                "icon": "delete",
+                "text": "delete"
+            },
+            {
+                "icon": "download",
+                "text": "download"
+            }
+        ]
+    },
+    "float": [
+        {
+            "title": "pending users",
+            "digit": "547",
+            "icon": "pending",
+            "variant": "lg purple"
+        },
+        {
+            "title": "approved users",
+            "digit": "605",
+            "icon": "check_circle",
+            "variant": "lg green"
+        },
+        {
+            "title": "blocked users",
+            "digit": "249",
+            "icon": "remove_circle",
+            "variant": "lg red"
+        }
+    ],
+    "filter": [
+       
+        {
+            "label": "search by",
+            "type": "search",
+            "placeholder": "mobile number/ userId"
+        }
+    ],
+    "table": {
+        "thead": [
+        
+            "userId",
+            "type of building",
+            "name" ,
+         "device_name",
+         "email",
+             "action"
+        ]
+    },
+    "role": [
+        "founder",
+        "admin",
+        "member",
+        "client",
+        "vendor"
+    ],
+    "status": [
+        "approved",
+        "pending",
+        "blocked"
+    ]
+}
